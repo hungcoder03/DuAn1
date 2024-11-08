@@ -4,10 +4,15 @@
  */
 package Repository;
 
+//import com.sun.jdi.connect.spi.Connection;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
 /**
  *
  * @author admin
  */
 public class RepoSanPham {
-    
+    private Connection con = null;
+    private PreparedStatement ps = null;
 }
