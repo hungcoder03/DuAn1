@@ -5,13 +5,13 @@
 package Controller;
 
 import Bean.DanhMucBean;
-import View.ViewBanHangTest;
-import View.ViewHoaDonTest;
+import View.ViewBanHang;
+import View.ViewHoaDon;
 import View.ViewKhachHang;
-import View.ViewKhuyenMaiTest;
-import View.ViewNhanVienTest;
-import View.ViewSanPhamTest;
-import View.ViewThongKeTest;
+import View.ViewKhuyenMai;
+import View.ViewNhanVien;
+import View.ViewSanPham;
+import View.ViewThongKe;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.util.List;
@@ -43,7 +43,7 @@ public class ChuyenGiaoDien {
         
         pnlRoot.removeAll();
         pnlRoot.setLayout(new BorderLayout());
-        pnlRoot.add(new ViewBanHangTest());
+        pnlRoot.add(new ViewBanHang());
         pnlRoot.validate();
         pnlRoot.repaint();
         
@@ -76,25 +76,25 @@ public class ChuyenGiaoDien {
         public void mouseClicked(MouseEvent e) {
             switch(kind) {
                 case "BanHang":
-                    node = new ViewBanHangTest();
+                    node = new ViewBanHang();
                     break;
                 case "KhuyenMai":
-                    node = new ViewKhuyenMaiTest();
+                    node = new ViewKhuyenMai();
                     break;
                 case "SanPham":
-                    node = new ViewSanPhamTest();
+                    node = new ViewSanPham();
                     break;
                 case "HoaDon":
-                    node = new ViewHoaDonTest();
+                    node = new ViewHoaDon();
                     break;
                 case "NhanVien":
-                    node = new ViewNhanVienTest();
+                    node = new ViewNhanVien();
                     break;
                 case "KhachHang":
                     node = new ViewKhachHang();
                     break;
                 case "ThongKe":
-                    node = new ViewThongKeTest();
+                    node = new ViewThongKe();
                     break;
                 default:
                     break;
