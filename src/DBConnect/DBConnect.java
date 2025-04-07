@@ -11,16 +11,13 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author ADMIN
- */
+
 public class DBConnect {
     private static final String USERNAME = "sa";
     private static final String PASSWORD = "123456";
     private static final String SERVER = "localhost";
     private static final String PORT = "1433";
-    private static final String DATABASE_NAME = "PTPM_FINALLY_JAVA_SOF2041";
+    private static final String DATABASE_NAME = "QLQ_CAFE_8";
     private static final boolean USING_SSL = true;
    
     private static String CONNECT_STRING;

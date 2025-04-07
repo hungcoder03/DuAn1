@@ -3,6 +3,9 @@
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="8e" green="b8" red="db" type="rgb"/>
+    </Property>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -24,16 +27,14 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
@@ -56,29 +57,28 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblLogo1" min="-2" pref="186" max="-2" attributes="0"/>
-                      </Group>
-                      <Component id="pnlMenu1" max="32767" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="32" pref="11" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                          <Component id="lblClock" min="-2" pref="222" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel9" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lblLogo" min="-2" pref="186" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="pnlMenu" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="pnlGiaoDienChinh" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                          <Component id="pnlGiaoDienChinh1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="39" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="193" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="jLabel9" max="32767" attributes="0"/>
                       </Group>
                   </Group>
+                  <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -86,29 +86,25 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" pref="80" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="pnlGiaoDienChinh" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="lblLogo" min="-2" pref="120" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel9" min="-2" pref="80" max="-2" attributes="0"/>
-                              <Component id="lblClock" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="pnlGiaoDienChinh1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="lblLogo1" min="-2" pref="120" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="pnlMenu1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="jLabel1" alignment="0" min="-2" pref="119" max="-2" attributes="0"/>
+                      <Component id="pnlMenu" min="-2" max="-2" attributes="0"/>
                   </Group>
+                  <EmptySpace pref="139" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="javax.swing.JPanel" name="pnlMenu1">
+        <Container class="javax.swing.JPanel" name="pnlMenu">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="8e" green="b8" red="db" type="rgb"/>
@@ -118,43 +114,43 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="pnlMenuBanHang1" linkSize="1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="pnlMenuSanPham1" linkSize="1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="pnlMenuKhachHang1" linkSize="1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="pnlMenuNhanVien1" linkSize="1" alignment="0" pref="184" max="32767" attributes="0"/>
-                          <Component id="pnlMenuHoaDon1" linkSize="1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="pnlMenuKhuyenMai1" linkSize="1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="pnlMenuThongKe1" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="pnlMenuBanHang" max="32767" attributes="0"/>
+                  <Component id="pnlMenuSanPham" alignment="0" max="32767" attributes="0"/>
+                  <Component id="pnlMenuKhuyenMai" alignment="0" max="32767" attributes="0"/>
+                  <Component id="pnlMenuHoaDon" alignment="0" max="32767" attributes="0"/>
+                  <Component id="pnlMenuNhanVien" alignment="0" max="32767" attributes="0"/>
+                  <Component id="pnlMenuKhachHang" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlMenuThongKe" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlMenuBanHang" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlMenuSanPham" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlMenuKhuyenMai" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlMenuHoaDon" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlMenuNhanVien" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlMenuKhachHang" linkSize="1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="pnlMenuThongKe" linkSize="1" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="pnlMenuBanHang1" linkSize="2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="pnlMenuSanPham1" linkSize="2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="pnlMenuKhuyenMai1" linkSize="2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="pnlMenuHoaDon1" linkSize="2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="pnlMenuNhanVien1" linkSize="2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="pnlMenuKhachHang1" linkSize="2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="pnlMenuThongKe1" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
           </Layout>
           <SubComponents>
-            <Container class="javax.swing.JPanel" name="pnlMenuBanHang1">
+            <Container class="javax.swing.JPanel" name="pnlMenuBanHang">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="8e" green="b8" red="db" type="rgb"/>
@@ -170,9 +166,9 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblMenuBanHang1" pref="170" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="lblMenuBanHang" min="-2" pref="143" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -180,13 +176,14 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblMenuBanHang1" pref="73" max="32767" attributes="0"/>
+                          <Component id="lblMenuBanHang" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="43" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="lblMenuBanHang1">
+                <Component class="javax.swing.JLabel" name="lblMenuBanHang">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -205,7 +202,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="pnlMenuSanPham1">
+            <Container class="javax.swing.JPanel" name="pnlMenuSanPham">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="8e" green="b8" red="db" type="rgb"/>
@@ -220,10 +217,10 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblMenuSanPham1" pref="172" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="lblMenuSanPham" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -231,13 +228,14 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblMenuSanPham1" pref="75" max="32767" attributes="0"/>
+                          <Component id="lblMenuSanPham" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="45" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="lblMenuSanPham1">
+                <Component class="javax.swing.JLabel" name="lblMenuSanPham">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -248,15 +246,12 @@
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="12" green="1a" red="34" type="rgb"/>
                     </Property>
-                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/icons/icons8-product-25.png"/>
-                    </Property>
                     <Property name="text" type="java.lang.String" value="S&#x1ea3;n ph&#x1ea9;m"/>
                   </Properties>
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="pnlMenuKhuyenMai1">
+            <Container class="javax.swing.JPanel" name="pnlMenuKhuyenMai">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="8e" green="b8" red="db" type="rgb"/>
@@ -273,7 +268,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="lblMenuKhuyenMai1" min="-2" pref="170" max="-2" attributes="0"/>
+                          <Component id="lblMenuKhuyenMai" min="-2" pref="170" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -282,14 +277,14 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblMenuKhuyenMai1" pref="67" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblMenuKhuyenMai" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="43" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="lblMenuKhuyenMai1">
+                <Component class="javax.swing.JLabel" name="lblMenuKhuyenMai">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="6a" green="76" red="93" type="rgb"/>
@@ -308,7 +303,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="pnlMenuHoaDon1">
+            <Container class="javax.swing.JPanel" name="pnlMenuHoaDon">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="8e" green="b8" red="db" type="rgb"/>
@@ -324,23 +319,23 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace pref="7" max="32767" attributes="0"/>
-                          <Component id="lblMenuHoaDon1" min="-2" pref="169" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="lblMenuHoaDon" min="-2" pref="154" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="lblMenuHoaDon1" pref="73" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblMenuHoaDon" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="49" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="lblMenuHoaDon1">
+                <Component class="javax.swing.JLabel" name="lblMenuHoaDon">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="6a" green="76" red="93" type="rgb"/>
@@ -359,7 +354,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="pnlMenuNhanVien1">
+            <Container class="javax.swing.JPanel" name="pnlMenuNhanVien">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="8e" green="b8" red="db" type="rgb"/>
@@ -376,22 +371,22 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="32767" attributes="0"/>
-                          <Component id="lblMenuNhanVien1" min="-2" pref="173" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblMenuNhanVien" min="-2" pref="163" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="lblMenuNhanVien1" pref="73" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblMenuNhanVien" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="49" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="lblMenuNhanVien1">
+                <Component class="javax.swing.JLabel" name="lblMenuNhanVien">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="6a" green="76" red="93" type="rgb"/>
@@ -410,7 +405,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="pnlMenuKhachHang1">
+            <Container class="javax.swing.JPanel" name="pnlMenuKhachHang">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="8e" green="b8" red="db" type="rgb"/>
@@ -426,20 +421,23 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblMenuKhachHang1" pref="170" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="lblMenuKhachHang" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lblMenuKhachHang1" alignment="0" pref="79" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblMenuKhachHang" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="49" max="32767" attributes="0"/>
+                      </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="lblMenuKhachHang1">
+                <Component class="javax.swing.JLabel" name="lblMenuKhachHang">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Segoe UI" size="22" style="3"/>
@@ -455,7 +453,7 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="pnlMenuThongKe1">
+            <Container class="javax.swing.JPanel" name="pnlMenuThongKe">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="8e" green="b8" red="db" type="rgb"/>
@@ -471,23 +469,23 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="lblMenuThongKe1" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                          <Component id="lblMenuThongKe" min="-2" pref="148" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="lblMenuThongKe1" pref="73" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblMenuThongKe" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="49" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JLabel" name="lblMenuThongKe1">
+                <Component class="javax.swing.JLabel" name="lblMenuThongKe">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="cc" green="cc" red="cc" type="rgb"/>
@@ -508,7 +506,7 @@
             </Container>
           </SubComponents>
         </Container>
-        <Container class="javax.swing.JPanel" name="pnlGiaoDienChinh1">
+        <Container class="javax.swing.JPanel" name="pnlGiaoDienChinh">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="c7" green="d7" red="e0" type="rgb"/>
@@ -523,12 +521,12 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="1650" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="1290" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="733" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="755" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -543,22 +541,12 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblClock">
+        <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="33" green="0" red="cc" type="rgb"/>
-            </Property>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="24" style="1"/>
-            </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="0" red="0" type="rgb"/>
-            </Property>
-            <Property name="horizontalAlignment" type="int" value="0"/>
-            <Property name="text" type="java.lang.String" value="Time"/>
+            <Property name="text" type="java.lang.String" value="jLabel1"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="lblLogo1">
+        <Component class="javax.swing.JLabel" name="lblLogo">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/icons/Logo.png"/>
